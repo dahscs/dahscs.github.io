@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+   
+  }
+
+header{
+   
+    font-family: 'Inconsolata', monospace;
+    display:flex;
+    
+    align-items:center;
+    justify-content:space-between;
+    padding:25px 10%;
+    background-color:  #222831;  
+}
+
+footer{
+    font-family: 'Inconsolata', monospace;
+    display:flex;
+    color:rgb(111, 148, 62);
+    align-items:center;
+    justify-content:center;
+    padding:25px 10%;
+    background-color:  #393e46;
+
+}
+
+.nav__links{
+    list-style:none;
+    
+    
+    
+}
+a{
+    text-decoration:none;
+    color:#eeeeee;
+    font-size:20px;
+    
+    
+}
+a:hover{
+    transition: all .5s ease 0s;
+    color: #ff0000; 
+}
+
+.nav__links li{
+    display:inline-block;
+    padding:0px 20px;
+   
+    
+    }
+
+    
+#homepage{
+    background-color:#393e46;
+}
+
+#doral_logo{
+    border-radius:60px;
+    width:60px;
+    justify-content:left;
+    
+    
+    
+}
+main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+
+
+
+}
+
+#buttonprevious, #buttonforward {
+    
+    background-color: transparent;
+    appearance: none;
+    border: none;
+    color: white;
+    filter: brightness(7);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    
+  }
+  #buttonprevious:hover, #buttonforward:hover{
+      transition: all .3s ease-in-out;
+      cursor:pointer;
+      filter: brightness(1);
+
+  }
+  #buttonprevious{
+    transform: rotate(180deg);
+  }
+
+#imgandbutton{
+    display:flex;
+    vertical-align:middle; 
+    margin-bottom:0px;
+}
+#descp{
+    font-size:20px;
+    margin-top:0px;
+    font-family: 'Inconsolata', monospace;
+    color:#eeeeee;
+}
+
+#clubPic1, #clubPic2, #clubPic3{
+
+    position:absolute;
+    left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+
+
+}
+
+#clubimages {
+    position:relative;
+    height:562.5px;
+    width:1000px;
+    margin:0 auto;
+  }
+
+#clubPic2{
+    opacity:0;
+}
+
+#clubPic3{
+    opacity:0;
+}
