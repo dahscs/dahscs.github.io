@@ -40,11 +40,12 @@ a{
     text-decoration:none;
     color:#eeeeee;
     font-size:20px;
+    transition: all .35s ease-in-out;
     
     
 }
 a:hover{
-    transition: all .5s ease 0s;
+    transition: all .35s ease-in-out;
     color: #ff0000; 
 }
 
@@ -85,7 +86,7 @@ main{
     appearance: none;
     border: none;
     filter: brightness(0) invert(1);
-    
+    transition: all .3s ease-in-out;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -95,7 +96,7 @@ main{
  
   #buttonprevious:hover, #buttonforward:hover{
     filter:brightness(100%);
-      transition: all .2s ease-in-out;
+      transition: all .3s ease-in-out;
       cursor:pointer;
       
 
