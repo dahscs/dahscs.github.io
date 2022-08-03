@@ -49,6 +49,7 @@ a:hover{
     color: #ff0000; 
 }
 
+
 .nav__links li{
     display:inline-block;
     padding:0px 20px;
@@ -142,4 +143,8 @@ main{
 
 #clubPic3{
     opacity:0;
+}
+
+#resourceTable a{
+    font-size: 40px;
 }
