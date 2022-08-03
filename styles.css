@@ -4,11 +4,11 @@
     box-sizing:border-box;
     margin:0;
     padding:0;
-   
-  }
+
+}
 
 header{
-   
+
     font-family: 'Inconsolata', monospace;
     display:flex;
     
@@ -53,7 +53,6 @@ a:hover{
 .nav__links li{
     display:inline-block;
     padding:0px 20px;
-   
     
     }
 
@@ -92,19 +91,19 @@ main{
     text-decoration: none;
     display: inline-block;
     font-size: 16px; 
-    
-  }
- 
-  #buttonprevious:hover, #buttonforward:hover{
-    filter:brightness(100%);
-      transition: all .3s ease-in-out;
-      cursor:pointer;
-      
+}
 
-  }
-  #buttonprevious{
+#buttonprevious:hover, #buttonforward:hover{
+    filter:brightness(100%);
+    transition: all .3s ease-in-out;
+    cursor:pointer;
+
+
+}
+
+#buttonprevious{
     transform: rotate(180deg);
-  }
+}
 
 #imgandbutton{
     display:flex;
@@ -122,10 +121,11 @@ main{
 
     position:absolute;
     left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    border: 5px solid #222831; 
 
 
 }
@@ -135,7 +135,7 @@ main{
     height:562.5px;
     width:1000px;
     margin:0 auto;
-  }
+}
 
 #clubPic2{
     opacity:0;
