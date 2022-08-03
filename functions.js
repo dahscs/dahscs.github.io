@@ -24,6 +24,7 @@ function goprevious(){
 }
 
 
+
 function goforward(){
     picId-=1;
     picId= picId%clubPicsArr.length;

@@ -84,18 +84,20 @@ main{
     background-color: transparent;
     appearance: none;
     border: none;
-    color: white;
-    filter: brightness(200);
+    filter: brightness(0) invert(1);
+    
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px; 
     
   }
+ 
   #buttonprevious:hover, #buttonforward:hover{
-      transition: all .1s ease-in-out;
+    filter:brightness(100%);
+      transition: all .2s ease-in-out;
       cursor:pointer;
-      filter: brightness(1);
+      
 
   }
   #buttonprevious{
