@@ -85,7 +85,7 @@ main{
     appearance: none;
     border: none;
     color: white;
-    filter: brightness(7);
+    filter: brightness(200);
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -93,7 +93,7 @@ main{
     
   }
   #buttonprevious:hover, #buttonforward:hover{
-      transition: all .3s ease-in-out;
+      transition: all .1s ease-in-out;
       cursor:pointer;
       filter: brightness(1);
 
