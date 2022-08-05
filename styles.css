@@ -134,7 +134,7 @@ main{
     position:relative;
     height:562.5px;
     width:1000px;
-    margin:0 auto;
+    margin:0  auto;
 }
 
 #clubPic2{
@@ -146,5 +146,18 @@ main{
 }
 
 #resourceTable a{
-    font-size: 40px;
+    font-size: 35px;
+}
+
+#resourceh2{
+    font-weight:normal;
+    font-size:65px;
+    color:rgb(197, 53, 53);
+    display:flex;
+    justify-content: center;
+}
+
+#utube{
+    display:flex;
+    justify-content: center;
 }
