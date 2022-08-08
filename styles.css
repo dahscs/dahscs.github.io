@@ -149,6 +149,10 @@ main{
     font-size: 35px;
 }
 
+#resourceTable{
+    display:flex;justify-content:center;flex-direction:column;
+}
+
 #resourceh2{
     font-weight:normal;
     font-size:65px;
@@ -160,4 +164,29 @@ main{
 #utube{
     display:flex;
     justify-content: center;
+    flex-direction:column;
+    align-items:center;
+}
+
+#languagedocs{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+#ucf, #usaco{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+#ucfpic, #usacopic{
+    border-radius:50px;
+    padding:10px;
+}
+
+#listofcomps p{
+    color:#eeeeee;
 }
