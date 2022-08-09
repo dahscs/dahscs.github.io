@@ -176,17 +176,24 @@ main{
     
 }
 
-#ucf, #usaco{
+#ucf, #usaco, #codequest, #stetson, #uf, #vjudge{
     display:flex;
     flex-direction:row;
     align-items:center;
 }
 
-#ucfpic, #usacopic{
+#comppics{
     border-radius:50px;
     padding:10px;
 }
 
 #listofcomps p{
     color:#eeeeee;
+    width:1000px;
+}
+
+#comph1{
+    color:rgb(111, 148, 62);
+    display:flex;
+    justify-content:center;
 }
