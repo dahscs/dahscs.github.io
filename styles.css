@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
 
 *{
     box-sizing:border-box;
@@ -176,7 +179,7 @@ main{
     
 }
 
-#ucf, #usaco, #codequest, #stetson, #uf, #vjudge{
+#ucf, #usaco, #codequest, #stetson, #uf, #vjudge, #acsl{
     display:flex;
     flex-direction:row;
     align-items:center;
@@ -196,4 +199,63 @@ main{
     color:rgb(111, 148, 62);
     display:flex;
     justify-content:center;
+}
+
+#ph1, #infoh1{
+    color:#eeeeee;
+}
+
+#positions{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    
+    
+}
+
+#presdescription, #vpdescription{
+    width:350px;
+}
+#president{
+    margin-right:10px;
+}
+#vp{
+    margin-left:10px;
+}
+
+#positions p{
+    display:flex;
+    justify-content:center;
+
+
+    
+
+}
+
+#prestitle, #vptitle, #presname, #vpname{
+    font-family: 'Crimson Text', serif;
+    
+    color:#eeeeee;
+}
+
+#presdescription, #vpdescription{
+    font-size:18px;
+    text-align:center;
+    color:#eeeeee;
+}
+
+#presimg:hover{
+    cursor:pointer;
+}
+
+#prestitle, #vptitle{
+    font-size:40px;
+}
+
+#addwhite{
+    color:#eeeeee;
+    font-size:18px;
+}
+#vpimg:hover,#edepic:hover{
+    cursor:pointer;
 }

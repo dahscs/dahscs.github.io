@@ -50,3 +50,39 @@ function goforward(){
 
     document.getElementById("descp").innerHTML = clubPicsArrDesc[picId];
 }
+
+var tally = 1;
+function changepimg(){
+
+    if(tally % 2 == 1){
+        document.getElementById("presimg").src="Pictures/kevintroll.jpg";
+    }
+    else{
+        document.getElementById("presimg").src="Pictures/kevingrin.jpg";
+    }
+    tally+=1;
+}
+
+var tally1 = 1;
+function changevpimg(){
+
+    if(tally1 % 2 == 1){
+        document.getElementById("vpimg").src="Pictures/diegotroll.jpg";
+    }
+    else{
+        document.getElementById("vpimg").src="Pictures/diegogrin1.png";
+    }
+    tally1+=1;
+}
+
+var tally2 = 1;
+function changedevpic(){
+
+    if(tally2 % 2 == 1){
+        document.getElementById("edepic").src="Pictures/edtroll1.jpg";
+    }
+    else{
+        document.getElementById("edepic").src="Pictures/edegrin.jpg";
+    }
+    tally2+=1;
+}
