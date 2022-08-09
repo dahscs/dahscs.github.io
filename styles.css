@@ -264,9 +264,21 @@ main{
 #ericZhu{
     display:flex;
     flex-direction:row;
+    vertical-align: middle;
+    margin-bottom:20px;
 
 }
 #ericSection{
     display:flex;
     flex-direction:column;
+    justify-content:center;
+}
+
+#projectCredits img{
+    margin-right:15px;
+    border-radius:10px;
+}
+
+#erictext{
+    width:580px;
 }
