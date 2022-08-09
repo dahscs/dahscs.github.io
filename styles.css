@@ -201,6 +201,7 @@ main{
     justify-content:center;
 }
 
+
 #ph1, #infoh1{
     color:#eeeeee;
 }
@@ -258,4 +259,14 @@ main{
 }
 #vpimg:hover,#edepic:hover{
     cursor:pointer;
+}
+
+#ericZhu{
+    display:flex;
+    flex-direction:row;
+
+}
+#ericSection{
+    display:flex;
+    flex-direction:column;
 }
