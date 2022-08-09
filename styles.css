@@ -197,3 +197,12 @@ main{
     display:flex;
     justify-content:center;
 }
+#ericZhu{
+    display:flex;
+    flex-direction:row;
+
+}
+#ericSection{
+    display:flex;
+    flex-direction:column;
+}
